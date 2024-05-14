@@ -22,3 +22,10 @@ You can also install `coffee_httpd` binary to [run coffee as a server](../using-
 ```bash
 cargo install --bin coffee_httpd
 ```
+
+## Prerequisites
+On Ubuntu 22.04 you may need to install these packages before intalling Coffee:
+```bash
+sudo apt install build-essential pkg-config
+```
+
